@@ -1,0 +1,31 @@
+body {
+	font-family: "Helvetica","Arial",serif;
+	color: #333;
+	background-color: #ccc;
+	margin: 1em 10%;
+}
+h1 {
+	color:#333;
+	background-color: transparent;
+}
+button {
+	box-sizing: content-box;
+	height: 30px;
+	width: 30px;	
+}
+input {
+	margin: 10px;
+	border: 1px solid;
+	line-height: 2;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+}
+
+[v-cloak] {
+	  display: none;
+}
